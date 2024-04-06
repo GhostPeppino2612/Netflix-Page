@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+.container-fluid {
+  background-color: rgb(20, 20, 20, 0.97);
+}
+.container-fluid .logo {
+  width: 100px;
+}
+.account svg, .account span {
+  color: white;
+}
+.account span {
+  vertical-align: middle;
+  font-weight: 500;
+}
+.account svg, .account img, .account span {
+  vertical-align: middle;
+  margin-inline: 0.5rem;
+  cursor: pointer;
+}
+.navbar-nav li a {
+  transition: transform 0.3s;
+}
+.navbar-nav li a:hover {
+  transform: scale(1.1);
+}
+.settings {
+  display: inline-block;
+  margin-inline-end: 1.5rem;
+}
+
+main {
+  padding-block-start: 1rem;
+  background-color: rgb(20, 20, 20, 0.97);
+}
+main h1, main h2 {
+  margin-inline-start: 1.5rem;
+  color: white;
+  vertical-align: middle;
+  font-weight: 500;
+  font-size: 3rem;
+}
+main h2 {
+  margin-block: 2rem;
+  font-size: 1.8rem;
+}
+.dropdown button {
+  font-weight: 500;
+  letter-spacing: 1px;
+  vertical-align: middle;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 0;
+  color: white;
+}
+.dropdown button:hover, .dropdown button:focus {
+  color: white;
+  border: 1px solid white;
+}
+
+.col img {
+  width: 20%;
+}
+
+.col-2 img {
+  transition: transform 0.3s;
+}
+.col-2 img:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 992px) {
+  .account {
+    margin-block-end: 1rem;
+  }
+  .navbar-nav li a:hover  {
+    transform: translate(20px);
+  }
+}
